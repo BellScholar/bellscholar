@@ -1,0 +1,29 @@
+li {
+	font-family:'Yesteryear', serif;
+}
+
+body {
+	color: black;
+	background-color:lightgoldenrodyellow;
+}
+
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font-family: "Bungee Shade";
+	font-size: 50px;
+}
+
+ol {
+	font-family: "Yesteryear";
+}
+
+.yesteryear-regular {
+  font-family: "Yesteryear", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
