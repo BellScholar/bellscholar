@@ -1,0 +1,42 @@
+body{
+  background: #000;
+  padding-top: 10px;
+} 
+
+p{
+  color: rgb(255, 255, 255); 
+  font-family: "Courier";
+  font-size: 20px;
+  margin: 20px 0 0 250px;
+  overflow: hidden;
+  width: 80em;
+  animation: type 4s steps(60, end); 
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+p a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+span{
+  animation: blink 1s infinite;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
