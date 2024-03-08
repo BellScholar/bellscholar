@@ -1,0 +1,52 @@
+body {
+    background-color: lightcoral;
+}
+
+#container {
+  display: flex;
+  position: absolute;
+/* These three properties below center the container */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Parent container for both letters H and I */
+.letter {
+/* Set to flex with wrapping so the cell pieces sit side by side and wrap */
+  display: flex;
+  flex-wrap: wrap;
+/* The below margin controls spacing between each letter */
+  margin-right: 30px;
+}
+
+/* Each "pixel" */
+.cell {
+  width: 30px;
+  height: 30px;
+  border-radius: 20% 15% 100% 35%;
+}
+
+/* Multiply the width of each cell by the number of cells you need in each row. For the letter H, I need 4 cells in each row, and each cell width is 30px. Therefore, 4 * 30px = 120px.*/
+.c {
+  width: 120px;
+}
+
+.y {
+  width: 120px;
+}
+
+.a {
+  width: 120px;
+}
+
+
+.fill {
+  background-color: yellow;
+/*   This is for the hover transition. */
+  transition: border-radius 0.3s linear;
+}
+
+#container:hover .fill {
+  border-radius: 20px;
+}
