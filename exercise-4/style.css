@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=DM+Serif+Display:ital@0;1&family=Jacques+Francois&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=DM+Serif+Display:ital@0;1&family=Jacques+Francois&family=Truculenta:opsz,wght@12..72,100..900&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=DM+Serif+Display:ital@0;1&family=Jacques+Francois&family=Rubik+Doodle+Shadow&family=Truculenta:opsz,wght@12..72,100..900&family=Yesteryear&display=swap');
+
+
+
+body {
+  background-color:#edd67d;
+}
+
+.poemgenerator {
+  width: 600px;
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.title {
+  font-family: "Copse", serif;
+  width: 600px;
+  font-size: 60px;
+}
+
+.author {
+  font-size: 15px;
+}
+
+#poem {
+  font-family: "Truculenta", sans-serif;
+  font-size: 26px;
+  position: relative;
+  margin: 25px 0;
+  padding-left: 40px;
+}
+
+span {
+  font-family: "Rubik Doodle Shadow", serif;
+  color: #ffffff;
+}
