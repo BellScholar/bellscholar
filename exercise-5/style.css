@@ -1,0 +1,30 @@
+html{
+    cursor: url('sources/cursor2.png'), auto;
+    overflow-y: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.body{
+    margin-top: 0px;
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.star {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid gold;
+    margin: 20px;
+    display: inline-block;
+  }
