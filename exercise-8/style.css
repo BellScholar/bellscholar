@@ -1,0 +1,77 @@
+  body {
+    font-family: "Jersey 20", sans-serif;
+  }
+
+  @font-face {
+    font-family: 'Jersey 20';
+    src: url('path/to/Jersey20.woff2') format('woff2'),
+         url('path/to/Jersey20.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  #container{
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  #clock {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -10px;
+    position: relative;
+    top:50%;
+  }
+  
+  #date{
+    color: black;  
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.1px;
+    font-family: "Jersey 20", serif;
+  }
+
+  
+    #date{  
+      text-align: center;
+      font-family: Helvetica;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top:10px;
+      letter-spacing: -1px;
+    }
+  
+
+  
+  @media {
+    body {
+      background-color: #feacac;}
+    #clock, #date{
+        color: rgb(255, 0, 0);
+    }
+    }
+
+    #movingShape {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: hsl(55, 100%, 73%);
+        top: 100%;
+        left: 100%;
+        border-radius: 100%;
+        transform: translate(-100%, -100%);
+        transition: 4s linear;
+        z-index: 1;
+        mix-blend-mode: difference;
+      }
