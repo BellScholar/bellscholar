@@ -45,7 +45,7 @@
 
 .text {
   position:relative; 
-  top:90px;
+  top:60px;
   font-size:30px;
   font-family: "Abril Fatface", serif;
 
@@ -67,17 +67,14 @@ body {
   font-style: normal;
 }
 
-.about {
-  background-color: rgb(255, 133, 133);
-  width: 60px;
-  height: 60px;
+#navigateButton {
   position: fixed;
   top: 20px;
   right: 20px;
-  transition: transform 0.1s ease-in-out;
-}
-
-.about:hover {
-  transform: scale(0.9, 0.9);
-  background-color: rgb(246, 126, 126);
+  padding: 10px 20px;
+  background-color: rgb(255, 133, 133);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
