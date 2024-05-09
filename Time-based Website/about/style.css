@@ -85,3 +85,14 @@ body {
     }
 }
 
+#navigateButton {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgb(255, 133, 133);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
