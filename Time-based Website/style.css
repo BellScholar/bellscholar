@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Jacquard+24+Charted&family=Jersey+20&family=Luckiest+Guy&display=swap');
+
+#random-text {
+  font-size: 25px;
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#bar-clock .hour, #bar-clock .minutes, #bar-clock .seconds {
+  background: rgb(255, 170, 170);
+  width: 150px;
+  height: 360px;
+  float: left;
+  margin-right: 0.5em;
+  position: relative;
+  bottom: 20px;
+}
+#bar-clock .seconds {
+  margin-right: 0;
+}
+#bar-clock .time {
+  display: block;
+  background: #CCC;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: height 0.1s linear;
+}
+#bar-clock #human-time {
+  clear: left;
+  text-align: center;
+  font-size: 2.2em;
+  padding-top: 0.3em;
+  color: #CCC;
+}
+
+.text {
+  position:relative; 
+  top:90px;
+  font-size:30px;
+  font-family: "Abril Fatface", serif;
+
+}
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(255, 170, 170);
+}
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
