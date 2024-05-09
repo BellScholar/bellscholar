@@ -103,3 +103,7 @@ updateRandomText();
 
 // Update text every 4 minutes (240,000 milliseconds)
 setInterval(updateRandomText, 240000);
+
+document.getElementById("navigateButton").addEventListener("click", function() {
+  window.location.href = 'https://bellscholar.github.io/bellscholar/Time-based Website/about/index.html';
+});
