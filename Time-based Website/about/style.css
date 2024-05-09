@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Jacquard+24+Charted&family=Jersey+20&family=Luckiest+Guy&display=swap');
+
+body {
+    background-color: rgb(255, 170, 170);
+    transition: 2s;
+    color: rgb(96, 18, 18);
+    font-family: "Abril Fatface", serif;
+    font-size: 25px;
+
+}
+
+.container {
+    background-color:rgb(255, 170, 170);
+    width: 40%;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.title {
+    font-size:30px;
+    position: relative;
+    top: 35px;
+    font-family: "Luckiest Guy", cursive;
+    
+}
+
+.text {
+    margin: 15%;
+    margin-top: -15px;
+    font-size: 1.2vw;
+    position: relative;
+    top: 10px;
+    font-weight: 700;
+}
+
+.home {
+    background-color: rgb(255, 133, 133);
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    transition: transform 0.1s ease-in-out;
+  }
+
+.home:hover {
+    transform: scale(0.9, 0.9);
+    background-color: rgb(246, 126, 126);
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: 3vw; 
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 70%;
+    }
+    .text {
+        font-size: 2.3vw; 
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 7vw;
+        top: 50px;
+    }
+    .text {
+        bottom: 100px;
+        margin-top: -40%;
+    }
+}
+
