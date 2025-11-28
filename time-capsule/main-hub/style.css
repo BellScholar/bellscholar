@@ -11,7 +11,7 @@ html, body {
     bottom: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #000000; /* Green */
+    background-color: #000000;
     color: white;
     border: none;
     cursor: pointer;
@@ -21,15 +21,15 @@ html, body {
 
 .overlay {
     font-family: 'Shadows Into Light', cursive !important;
-    position: relative; /* or 'absolute', depending on your layout needs */ 
+    position: relative; 
     z-index: 10;
 }
 
 
 .overlay a {
-    color: inherit; /* Use the same color as the parent element */
-    text-decoration: none; /* Remove underline from the link */
-    /* Add any other styles here */
+    color: inherit; 
+    text-decoration: none; 
+    
 }
 
 .shadows-into light-regular {
