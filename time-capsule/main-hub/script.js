@@ -23,7 +23,7 @@ const pointer = {
     dx: 0,
     dy: 0,
     moved: false,
-    firstMove: false // for codepen preview
+    firstMove: false 
 };
 window.setTimeout(() => {
     pointer.firstMove = true;
