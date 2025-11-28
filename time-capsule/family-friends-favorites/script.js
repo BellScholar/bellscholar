@@ -6,14 +6,10 @@ function $$(elem){
   return document.querySelectorAll(elem);
 }
 
-// beep
-var audio = new Audio("https://s3-us-west-2.amazonaws.com/s.cdpn.io/111167/beep3.wav");
-
 var imagesCtr = $$(".image-ctr"),
     images = $$(".image"),
     imagesLength = images.length - 1;
 
-// nodelist to array
 imagesCtr = [].slice.call(imagesCtr);
 
 var sliderCtr = $(".slider-ctr"),
@@ -21,7 +17,6 @@ var sliderCtr = $(".slider-ctr"),
     title = $(".title"),
     detail = $(".detail");
 
-// get the next siblings of selected element
 function nextSiblings(x, y){
   var arr = [];
   for(y; y < x; x--){
@@ -30,7 +25,6 @@ function nextSiblings(x, y){
   return arr.reverse();
 }
 
-// get the previous siblings of selected element
 function prevSiblings(x){
   var arr = [];
   for(var y = -1, x = x - 1; y < x; x--){
@@ -205,5 +199,3 @@ closeBtn.addEventListener("click", function(){
   }
   
 });
-
-balapaCop("Apple TV Interaction", "rgba(255,255,255,.8)");
